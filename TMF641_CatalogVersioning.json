@@ -1,0 +1,64 @@
+{
+  "id": "ORDER7001",
+  "ponr": "false",
+  "orderCurrency": "USD",
+  "priority": 4,
+  "orderDate": "2023-10-08T15:36:07.000Z",
+  "note": [
+    {
+      "author": "System Administrator",
+      "date": "2023-10-08T14:36:27.000Z",
+      "text": "No compatibility rule defined for orderline item specifications."
+    },
+    {
+      "author": "",
+      "date": "1970-01-01T00:00:00.000Z",
+      "text": ""
+    }
+  ],
+  "serviceOrderItem": [
+    {
+      "id": "LAB_OLI_001",
+      "ponr": "false",
+      "quantity": 1,
+      "priority": 4,
+      "action": "add",
+      "service": {
+        "@type": "Service",
+        "state": "",
+        "serviceType": "cfs",
+        "serviceSpecification": {
+          "id": "xxxx",
+          "name": "Lab Test Broadband Service",
+           "internalVersion":"yyyy",
+          "@type": "ServiceSpecificationRef"
+        }
+
+      },
+      "place": {
+        "id": "a11af4a848cb6110f877e46974c6e3f8",
+        "@type": "Place"
+      },
+      "state": "new",
+      "version": "1",
+      "@type": "ServiceOrderItem"
+    }
+  ],
+  "relatedParty": [
+    {
+      "id": "1688f8e448cb6110f877e46974c6e3c0",
+      "name": "Omega Communications",
+      "@type": "RelatedParty",
+      "@referredType": "Customer"
+    },
+    {
+      "id": "229930a848cb6110f877e46974c6e310",
+      "name": "Mike Ross",
+      "@type": "RelatedParty",
+      "@referredType": "CustomerContact"
+    }
+  ],
+  "state": "new",
+  "version": "1",
+  "@type": "ServiceOrder"
+}

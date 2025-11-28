@@ -1,0 +1,91 @@
+{
+  "id": "ORDER2001",
+  "ponr": "false",
+  "orderCurrency": "USD",
+  "priority": 4,
+  "orderDate": "2023-10-05T16:14:00.000Z",
+  "note": [
+    {
+      "author": "System Administrator",
+      "date": "2023-10-05T15:14:42.000Z",
+      "text": "No compatibility rule defined for orderline item specifications."
+    },
+    {
+      "author": "",
+      "date": "1970-01-01T00:00:00.000Z",
+      "text": ""
+    }
+  ],
+  "serviceOrderItem": [
+    {
+      "id": "OLI-201",
+      "ponr": "false",
+      "quantity": 5,
+      "priority": 4,
+      "action": "add",
+      "service": {
+        "@type": "Service",
+        "state": "",
+        "serviceType": "cfs",
+        "serviceCharacteristic": [
+          {
+            "name": "Firewall coverage",
+            "valueType": "choice",
+            "value": "Premium(Up to 50 sites)",
+            "previousValue": ""
+          },
+          {
+            "name": "Administration Support",
+            "valueType": "choice",
+            "value": "Basic( Customer Managed)",
+            "previousValue": ""
+          },
+          {
+            "name": "CPE Type",
+            "valueType": "choice",
+            "value": "Physical",
+            "previousValue": ""
+          },
+          {
+            "name": "Firewall Security",
+            "valueType": "choice",
+            "value": "Premium",
+            "previousValue": ""
+          }
+        ],
+        "serviceSpecification": {
+          "id": "f99546ff07266010a7955b7e0ad300a8",
+          "name": "Managed Firewall Service",
+          "version": "",
+          "internalVersion": "3",
+          "internalId": "f99546ff07266010a7955b7e0ad300a8",
+          "@type": "ServiceSpecificationRef"
+        }
+      },
+      "place": {
+        "id": "25aba4010a0a0bb3008f329002f12211",
+        "@type": "Place"
+      },
+      "state": "new",
+      "version": "1",
+      "@type": "ServiceOrderItem"
+    }
+  ],
+  "relatedParty": [
+    {
+      "id": "ffc68911c35420105252716b7d40dd55",
+      "name": "Funco Intl",
+      "@type": "RelatedParty",
+      "@referredType": "Customer"
+    },
+    {
+      "id": "eaf68911c35420105252716b7d40ddde",
+      "name": "Sally Thomas",
+      "@type": "RelatedParty",
+      "@referredType": "CustomerContact"
+    }
+  ],
+  "state": "new",
+  "version": "1",
+  "@type": "ServiceOrder"
+}

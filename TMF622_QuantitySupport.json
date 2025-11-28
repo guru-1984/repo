@@ -1,0 +1,97 @@
+{
+  "id": "ORDER1001",
+  "ponr": "false",
+  "href": "/api/sn_ind_tmt_orm/order/productOrder/933cd90c7cfd35507f448cb71a70aabc",
+  "orderCurrency": "USD",
+  "priority": 4,
+  "orderDate": "2023-10-05T15:49:24.000Z",
+  "channel": [
+    {
+      "id": "58ad5522c3702010df4773ce3640ddb2",
+      "name": "Agent assist"
+    }
+  ],
+  "note": [
+    {
+      "author": "System Administrator",
+      "date": "2023-10-05T14:49:48.000Z",
+      "text": "No compatibility rule defined for orderline item specifications."
+    },
+    {
+      "author": "",
+      "date": "1970-01-01T00:00:00.000Z",
+      "text": ""
+    }
+  ],
+  "productOrderItem": [
+    {
+      "id": "OLI-200",
+      "ponr": "false",
+      "quantity": 5,
+      "priority": 4,
+      "action": "add",
+      "itemPrice": [
+        {
+          "priceType": "recurring",
+          "price": {
+            "taxIncludedAmount": {
+              "unit": "USD",
+              "value": 29
+            }
+          }
+        },
+        {
+          "priceType": "nonRecurring",
+          "price": {
+            "taxIncludedAmount": {
+              "unit": "USD",
+              "value": 0
+            }
+          }
+        }
+      ],
+      "product": {
+        "@type": "Product",
+        "productSpecification": {
+          "id": "aeddcd1fb7d69910ff00f203ae11a990",
+          "name": "Home Internet",
+          "version": "",
+          "internalVersion": "1",
+          "internalId": "aeddcd1fb7d69910ff00f203ae11a990",
+          "@type": "ProductSpecificationRef"
+        },
+        "place": {
+          "id": "25aba4010a0a0bb3008f329002f12211",
+          "@type": "Place"
+        }
+      },
+      "productOffering": {
+        "id": "dcee8153b71a9910ff00f203ae11a93a",
+        "name": "Premium Home Internet starting from $29",
+        "version": "",
+        "internalVersion": "1",
+        "internalId": "dcee8153b71a9910ff00f203ae11a93a"
+      },
+      "state": "new",
+      "version": "1",
+      "@type": "ProductOrderItem"
+    }
+  ],
+  "relatedParty": [
+    {
+      "id": "ffc68911c35420105252716b7d40dd55",
+      "name": "Funco Intl",
+      "@type": "RelatedParty",
+      "@referredType": "Customer"
+    },
+    {
+      "id": "eaf68911c35420105252716b7d40ddde",
+      "name": "Sally Thomas",
+      "@type": "RelatedParty",
+      "@referredType": "CustomerContact"
+    }
+  ],
+  "state": "new",
+  "version": "1",
+  "@type": "ProductOrder"
+}
